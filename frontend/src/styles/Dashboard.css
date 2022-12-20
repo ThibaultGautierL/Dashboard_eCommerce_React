@@ -1,0 +1,119 @@
+.top-screen{
+    display: flex;
+}
+
+/*/*Modification de notre Header*/
+.header{
+    display: flex;
+}
+
+
+/*Modification du Logo du Header*/
+.header_logo{
+    width: 50%;
+    margin: 1.1em;
+}
+
+.calendar, .button_1, .button_2 {
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calendar{
+    background-color: white;
+    border : 1px solid #0088FE;
+}
+
+.calendar:hover{
+    background-color: #eef7ff;
+    border : 1px solid #0088FE;
+    cursor: pointer;
+}
+
+.button_1{
+    background-color: #00C49F;
+    color : white;
+    border: 1px solid #00C49F;
+}
+
+.button_1:hover{
+    background-color: #018169;
+    color : white;
+    border: 1px solid #018169;
+    cursor: pointer;
+}
+
+.button_2{
+    background-color: white;
+    color : #00C49F;
+    border: 1px solid black;
+}
+
+.button_2:hover{
+    background-color: #e3f0ed;
+    color : #00C49F;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.main_dashboard_numbers{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+.information_total_Sales, .information_total_Orders, .information_average_Cart {
+   
+    border : solid 1px lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color : white;
+    border-radius: 5px;
+}
+
+.information_total_Sales{
+    background-color: #00C49F;
+}
+
+.information_total_Orders{
+    background-color: #FFBB27;
+}
+
+.information_average_Cart{
+    background-color: #0088FE;
+}
+
+
+.information_total_text{
+
+    align-self: start;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-left: 0.4em;
+    margin-top: 0.4em;
+}
+
+
+.information_total_value{
+    font-size: 200%;
+    font-weight: bolder;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 0.4em;
+    margin-top: 0.4em;
+}
+
+
+.main_dashboard_graph{
+    margin-top: 1.5em;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}

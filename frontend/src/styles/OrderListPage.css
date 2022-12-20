@@ -1,0 +1,28 @@
+
+/*Permet de donner du Style à notre tableau*/
+table {
+    width: 50%;
+}
+
+.order_informations_table{
+    margin-left: 4%;
+    border-collapse:collapse
+}
+
+
+/*================================================*/
+
+
+/*Permet de donner du style aux titres de notre tableau*/
+.order_informations_columns{
+    font-size: 90%;
+    font-weight: bold;
+    border-bottom: solid 1px lightgrey;
+}
+
+.order_informations_columns_type{
+    margin: 1.1em;
+    margin-right: 9em;
+}
+
+

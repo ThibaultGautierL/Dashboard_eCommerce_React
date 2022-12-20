@@ -1,0 +1,44 @@
+/*Modification de nos colonnes de tableau*/
+
+/*ici on rajoute la Border à chaque ligne */
+.order_informations{
+    font-size: 90%;
+    border-bottom: solid 1px lightgrey;
+}
+
+/*Permet de donner un style plus homogène au bouton checkbox permettant de dire que la commande est traitée ou non*/ 
+.order_informations_fulfilled{
+    margin-left: 4.1em;
+    top: 0;
+    left: 0;
+    height: 1.5em;
+    width: 1.5em;
+    background-color: #eee;
+    accent-color: #216A39;
+}
+
+
+/*Indications pour si notre commande n'est PAS traitée ==============*/ 
+.order_informations_id-a, .order_informations_firstname-a, .order_informations_country-a, .order_informations_price-a, .order_informations_items-a {
+    margin: 1.1em; 
+}
+
+.order_informations_id-a{
+    font-weight: 600;
+}
+
+/*Indications pour si notre commande est  traitée ==================*/ 
+.order_informations_id-b, .order_informations_firstname-b, .order_informations_country-b, .order_informations_price-b, .order_informations_items-b {
+    margin: 1.1em;
+    color: lightgrey; 
+}
+
+.order_informations_id-b{
+    font-weight: 600;
+}
+
+
+
+
+    
+
